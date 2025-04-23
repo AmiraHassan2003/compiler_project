@@ -25,9 +25,9 @@ public class FileLoader {
             while ((line = reader.readLine()) != null) {
                 line = line.trim();
                 if (line.startsWith("using(") && line.endsWith(");")) {
-                    String included = line.substring(6, line.length() - 2).trim();
+                    String included = line.substring(6, line.length() - 2).trim();//to use the text file (text.txt)
                     System.out.println("Including: " + included);
-                    result.append(readAndExpandFile(included, visited)).append("\n");
+                    result.append(readAndExpandFile(included, visited)).append("\n");//to replace the contect of text.txt to main.txt
                 } else {
                     result.append(line).append("\n");
                 }

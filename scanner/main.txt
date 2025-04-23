@@ -1,10 +1,10 @@
 Program
-using(extra.txt);
+using(text.txt);
 Division X {
     Ire y = 5;
     ReplyWith y;
     /- this is compiler task
-
+    Ire Z = 10;
     /## 
     scanner 
     pahse

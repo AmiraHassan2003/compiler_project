@@ -1,1 +1,0 @@
-SetOfClo name = "Amira and Nada";
