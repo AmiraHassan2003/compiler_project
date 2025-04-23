@@ -1,0 +1,14 @@
+Program
+using(extra.txt);
+Division X {
+    Ire y = 5;
+    ReplyWith y;
+    /- this is compiler task
+
+    /## 
+    scanner 
+    pahse
+    ##/
+    "PhaseOfScanner"
+}
+End
